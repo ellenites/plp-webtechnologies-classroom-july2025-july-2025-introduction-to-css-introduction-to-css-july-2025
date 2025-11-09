@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Enhancing HTML5 Form and Content</title>
+
+     
+    <link rel="stylesheet" href="styles.css">
+
+</head>
+<body>
+    
+    <header>
+        <h1>Welcome to the my page</h1>
+        <p>This page demonstrates the use of LIsts, tables, media and form</p>
+        
+    </header>
+    
+    
+    <main>
+        <nav>
+          <ul>
+            <li><a href="#home">Programminng lannguages for frontend web development</a></li>
+            <li><a href="#home2">Steps to Build a Web Page</a></li>
+            <li><a href="#homethird">Programming languages overview</a></li>
+            <li><a href="#homefourth">HTML5 Media Examples</a></li>
+            <li><a href="#homefifth">Contact Form</a></li>
+          </ul>
+        </nav>
+        <section id="home">
+            <h2>Programminng lannguages for frontend web development</h2>
+            <p>Here we are going to list programminng languages that are used in wenbsite development</p>
+
+            <ul>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JavaScript</li>
+                <ul>
+                    <li>React JS</li>
+                    <li>Vue.JS</li>
+                    <li>Anguar</li>
+                </ul>
+                <li>Python (for backend frameworks like Flask or Django)</li>
+            </ul>
+
+        </section>
+
+        <section id="home2">
+            <h2>Steps to Build a Web Page</h2>
+            <p> Follow these steps to create a well-structured web page:</p>
+            <ol>
+                <li>Start with a semantic HTML structure</li>
+                <li>Add meaningful content using headings, paragraphs, and lists.</li>
+                <li>Use CSS for styling.</li>
+                <li>Enhance interactivity with JavaScript if needed.</li>
+            </ol>
+        </section>
+
+        <section id="homethird">
+            <h2>Programming languages overview</h2>
+            <p>This table summarizes some common programming languages and their main uses:</p>
+
+            <table border="1">
+                <thead>
+                    <tr>
+                        <th>Language</th>
+                        <th>Primary Use</th>
+                        <th>Difficulty Level</th>
+                    </tr>
+                
+                </thead>
+
+                <tbody>
+                    <tr>
+                        <td>HTML</td>
+                        <td>Structuring web content</td>
+                        <td>Easy</td>
+                    </tr>
+
+                    <tr> 
+                        <td>CSS</td>
+                        <td>Styling web pages</td>
+                        <td>Easy</td>
+                    </tr>
+
+                    <tr>
+                        <td>JavaScript</td>
+                        <td>Adding interactivity</td>
+                        <td>Intermediate</td>
+                    </tr>
+
+                    <tr>
+                        <td>Python</td>
+                        <td>Data analysis and backend development</td>
+                        <td>Intermediate</td>
+                    </tr>
+
+                    <tr>
+                        <td>C++</td>
+                        <td>High-performance applications</td>
+                        <td>Hard</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <section id="homefourth">
+            <h2>HTML5 Media Examples</h2>
+            <p>Let’s explore different types of media you can include in a webpage:</p>
+            <figure>
+                <img src="https://upload.wikimedia.org/wikipedia/commons/6/61/HTML5_logo_and_wordmark.svg"
+                 alt="HTML5 Logo" width="150">
+                <figcaption> Figure 1: The HTML5 logo</figcaption>
+            </figure>
+            
+            <figure>
+                <figcaption>Listen to a sample audio track:</figcaption>
+                <audio controls>
+                    <source scr="https://www.w3schools.com/html/horse.mp3" type="audio/mpeg">
+                      Your browser does not support the audio element.
+                </audio>
+            </figure>
+
+            <figure>
+                <figcaption>Watch a short HTML5 demo video:</figcaption>
+                <video width="320" height="240" controls>
+                        <source src="https://www.w3schools.com/html/mov_bbb.mp4" type="">
+                        Your browser does not support the video tag. 
+                </video>
+            </figure>
+        </section>
+
+        <section id="homefifth">
+            <h2>Contact Form</h2>
+            <p>Please fill out the form below. Fields marked with * are required</p>
+
+            <form action="#" method="post" autocomplete="on">
+                <fieldset>
+                    <legend>Personal Informantion</legend>
+                    <label for="fullname"> Full Name*:</label>
+                    <input type="text" id="fullname" name="fullname" placeholder="Enter your full name" required minlength="2">
+                    <br><br>
+
+                    <label for="email"> Email Address*:</label>
+                    <input type="email" id="email" name="email" placeholder="example@gmail.com" required>
+                    <br><br>
+
+                    <label for="phone">Phone Number*:</label>
+                    <input type="tel" id="Phone" name="phone" placeholder="+251 915161718" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}">
+                    <small>Format:+251 915161718</small>
+
+                </fieldset>
+
+                <br>
+
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p> &copy; 2025 My page. All rights reserved</p>
+    </footer>
+</body>
+</html>
